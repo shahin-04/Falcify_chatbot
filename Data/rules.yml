@@ -1,0 +1,58 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: respond to register_form
+  steps:
+  - intent: register_form
+  - action: utter_register_form
+
+- rule: respond to dates_and_timings
+  steps:
+  - intent: dates_and_timings
+  - action: utter_dates_and_timings
+  
+- rule: respond to venue
+  steps:
+  - intent: venue
+  - action: utter_venue
+
+- rule: respond to registration_fee
+  steps:
+  - intent: registration_fee
+  - action: utter_registration_fee
+
+- rule: respond to certificate
+  steps:
+  - intent: certificate
+  - action: utter_certificate 
+
+- rule: respond to guidelines
+  steps:
+  - intent: guidelines
+  - action: utter_guidelines
+
+- rule: respond to prerequisites
+  steps:
+  - intent: prerequisites
+  - action: utter_prerequisites
+
+- rule: respond to lunch
+  steps:
+  - intent: lunch
+  - action: utter_lunch
+
+- rule: respond to feedback
+  steps:
+  - intent: feedback
+  - action: utter_feedback
