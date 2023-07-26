@@ -1,9 +1,6 @@
 # Falcify Workshop Chatbot
 
-<div>
-    <img src="Images/Fly High with Falcify.jpg" alt="Calculator" width="460" height="460">
-</div>
-
+<p align="center"><img src="Images/Fly High with Falcify.jpg" alt="Calculator" width="490" height="490" ></p>
 
 **Falcify** is an AI-powered chatbot built using **Rasa** to assist participants with workshop-related queries and issues. It is integrated with **Telegram**, making it easy for users to interact with the chatbot directly from the Telegram app.
 
