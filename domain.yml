@@ -1,0 +1,67 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey! I'm Falcify! Shoot your questions, and I'll amaze you with answers!"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_register_form:
+  - text: "To register for the workshop, please fill out the registration form."
+
+  utter_dates_and_timings:
+  - text: "The workshop will be held on 4 Nov, and the timings are from 11am to 5pm."
+
+  utter_venue:
+  - text: "The workshop venue is IGDTUW Auditorium, located at Kashmere Gate. You can find detailed directions on our website."
+
+  utter_registration_fee:
+  - text: "There is no registration fees. The workshop is completely free."
+
+  utter_certificate:
+  - text: "Yes, all participants who attend the workshop will receive a certificate of participation upon completion."
+
+  utter_guidelines:
+  - text: "Please bring your laptop/tablet and any materials specified in the workshop guidelines. We'll provide you with all the necessary workshop materials."
+
+  utter_prerequisites:
+  - text: "Bring your enthusiasm and curiosity; we'll ignite the spark of knowledge together!"
+
+  utter_lunch:
+  - text: "Yes, we will provide lunch and refreshments during the workshop."
+
+  utter_feedback:
+  - text: "We value your feedback! After the workshop, we'll send you a feedback form via email. You can share your thoughts and suggestions there."
+
+
+
+
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
